@@ -26,4 +26,5 @@ document.getElementById("BSubmit").onclick = function() {
 
         default:
             break;
+    }
 }
