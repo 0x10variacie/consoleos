@@ -6,24 +6,23 @@ console.log("Waiting...");
 let prompt = document.getElementById("TypePrompt");
 prompt = String(prompt);
 
-document.getElementById("BSubmit").onclick = function() {
-    if (prompt="about") {
+document.getElementById("BSubmit").onclick = switch (document.getElementById("TypePrompt".value)) {
+    case prompt = "about":
         console.log("Please expand");
         console.log("ConsoleOS v.DEV");
-        console.log("made by 0x10variacie");
+        console.log("made by 0x10variacie");        
         break;
-    }
-    else if (prompt="help") {
+    case prompt = "help":
         console.log("Please expand");
         console.log("help - displays this page");
-        console.log("about - displays information about this console");
+        console.log("about - displays information about this console");      
         break;
-    }
-    else if (prompt="calc") {
+    case prompt = "calc":
         console.log("Please expand");
         console.log("Send me the 1st value");
         console.log("Under development");
         break;
-    }
-    
+
+    default:
+        break;
 }
