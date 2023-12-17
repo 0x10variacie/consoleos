@@ -12,9 +12,14 @@ document.getElementById("BSubmit").onclick = function() {
         console.log("ConsoleOS v.DEV");
         console.log("made by 0x10variacie");
     }
-    else if (prompt="help") {
+    if (prompt="help") {
         console.log("Please expand");
-        console.log("help - displays this page")
+        console.log("help - displays this page");
+        console.log("about - displays information about this console");
+    }
+    if (prompt="help") {
+        console.log("Please expand");
+        console.log("Send me the 1st value")
         console.log("about - displays information about this console")
     }
     
