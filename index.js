@@ -5,9 +5,9 @@ setTimeout((1), console.log("by 0x10variacie"));
 console.log("Waiting...");
 
 document.getElementById("BSubmit").onclick = function() {
+    let prompt = document.getElementById("TypePrompt");
+    prompt = String(prompt);
     switch (document.getElementById("TypePrompt".value)) {
-        let prompt = document.getElementById("TypePrompt");
-        prompt = String(prompt);
         case prompt = "about":
             console.log("Please expand");
             console.log("ConsoleOS v.DEV");
