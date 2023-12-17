@@ -7,7 +7,6 @@ let prompt = document.getElementById("TypePrompt");
 prompt = String(prompt);
 
 document.getElementById("BSubmit").onclick = function() {
-    console.log(prompt);
     if (prompt="about") {
         console.log("Please expand");
         console.log("ConsoleOS v.DEV");
