@@ -12,15 +12,15 @@ document.getElementById("BSubmit").onclick = function() {
         console.log("ConsoleOS v.DEV");
         console.log("made by 0x10variacie");
     }
-    if (prompt="help") {
+    else if (prompt="help") {
         console.log("Please expand");
         console.log("help - displays this page");
         console.log("about - displays information about this console");
     }
-    if (prompt="help") {
+    else if (prompt="calc") {
         console.log("Please expand");
         console.log("Send me the 1st value")
-        console.log("about - displays information about this console")
+        console.log("Under development")
     }
     
 }
